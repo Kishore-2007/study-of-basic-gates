@@ -81,7 +81,6 @@ endmodule
 
 
 **RTL**
-
 ![Screenshot 2025-03-19 082523](https://github.com/user-attachments/assets/fccdd7c2-fad6-4d0e-9e78-6e46bf98296c)
 
 
