@@ -1,4 +1,6 @@
-### study-of-basic-gates
+### Name : Kishore.S
+### Register Number : 212224230130
+### Experiment 1 : Study of basic digital IC’s and verification of truth tables for different logic gates, realization using Verilog 
 
 **AIM:** 
 
@@ -63,16 +65,29 @@ Y= A⊕B
 
 
 **PROGRAM**
-
-Program for logic gates and verify its truth table in quartus using Verilog programming
-
- Developed by: RegisterNumber: 
+```python
+module DE(a,b,yand,yor,ynot,ynand,ynor,yxor,yxnor);
+input a,b;
+output yand,yor,ynot,ynand,ynor,yxor,yxnor;
+and(yand,a,b);
+or(yor,a,b);
+not(ynot,a);
+nand(ynand,a,b);
+nor(ynor,a,b);
+xor(yxor,a,b);
+xnor(yxnor,a,b);
+endmodule
+```
  
 **Logic symbol & Truthtable**
+![Screenshot 2025-03-05 094739](https://github.com/user-attachments/assets/c329337e-fd10-4219-96eb-3751f38114b1)
 
 **RTL realization Output:** 
+![Screenshot 2025-03-19 082551](https://github.com/user-attachments/assets/d33079c7-43ac-498c-87bb-bf1a4e4baf8f)
 
 **RTL**
+![Screenshot 2025-03-19 082523](https://github.com/user-attachments/assets/fccdd7c2-fad6-4d0e-9e78-6e46bf98296c)
+
 
 **Result:**
 
